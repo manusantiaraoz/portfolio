@@ -1,7 +1,7 @@
 import empresa from "./../../public/logodelaempresa.png";
 import empresa2 from "./../../public/matesRicos.jpg";
 import empresa3 from "./../../public/sa1.jpg";
-import empresa4 from "./../../public/santiAraoz.jpg";
+import empresa4 from "./../../public/santiaraoz.jpg";
 import network from  "./../../public/network.svg"
 
 const InfoMia = () => {
