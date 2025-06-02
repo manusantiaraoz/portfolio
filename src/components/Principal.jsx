@@ -2,7 +2,7 @@ import Slider from "./slider";
 import InfoMia from "./InfoMia";
 import Proyectos from "./Proyectos";
 
-const Main = () => {
+const Principal = () => {
   return (
     <div className="mainPage">
     <div className="bg-body-tertiary">
@@ -44,4 +44,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Principal;
