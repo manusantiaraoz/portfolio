@@ -1,0 +1,118 @@
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100%;
+}
+.mainPage {
+  flex-grow: 1;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(calc(-100% / 2)); /* Desplaza el ancho del primer conjunto */
+  }
+  100% {
+    transform: translateX(0); /* Vuelve al inicio */
+  }
+}
+
+.animate-scroll {
+  animation: scroll 22s linear infinite; 
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  
+}
+.overflow{
+  overflow-x: hidden;
+}
+
+@keyframes show{
+  from{
+    opacity: 0; scale:10%
+  }
+  to{
+    opacity: 1; scale: 100%;
+  }
+}
+.showFrame{
+  view-timeline-name: --reveal;
+  animation-name: show;
+  animation-fill-mode: both;
+  animation-timeline: --reveal;
+  animation-range: entry 0% cover 60%;
+}
+.pantalla{
+  min-height: 90vh;
+}
+/* fuentes */
+.source,h1,h2,h3,h4,h5{
+  font-family: "Source Sans 3", sans-serif;
+}
+.schibsted,p{
+   font-family: "Schibsted Grotesk", sans-serif;
+}
+.fs1{
+  font-size:3.0rem ;
+}
+
+.center{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.imgSlider{
+  width: 5vh;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.saImg{
+  width: 80%;
+  border-radius: 10px;
+}
+.swipImg{
+  width: 100vh;
+}
+.proyectoImg{
+    width: 61vh;
+    object-fit:contain;
+  }
+
+
+@media (max-width: 575px) {
+ 
+  .imgBanner{
+    display: none;
+  }
+  .celContainer{
+    width: 100%;
+  }
+  .infoMiaCel{
+    display: flex;
+    flex-direction: column;
+  }
+  .saImg{
+    margin-left: 20px;
+  }
+  .proyecCell{
+    display: flex;
+    flex-direction: column;
+  }
+  .pantalla {
+    height: auto; 
+    min-height: 90vh; 
+  }
+  .proyectoImg{
+    width: 50vh;
+  }
+  .foot{
+    height: 25vh;
+  }
+}
