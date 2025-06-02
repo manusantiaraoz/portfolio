@@ -1,6 +1,5 @@
-import React from "react";
 
-const Slider = () => {
+const Carrusel = () => {
   return (
     <div className="overflow">
   <div className="animate-scroll">
@@ -87,4 +86,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default Carrusel;

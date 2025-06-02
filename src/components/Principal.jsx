@@ -1,4 +1,5 @@
-import Slider from "./slider";
+
+import Carrusel from "./Carrusel";
 import InfoMia from "./InfoMia";
 import Proyectos from "./Proyectos";
 
@@ -25,7 +26,7 @@ const Principal = () => {
               Técnico Superior en Desarrollo deSoftware recientemente graduado,con sólidos conocimientos enprogramación orientada a objetos,desarrollo web y bases de datos.Apasionado por la tecnología y laresolución de problemas, conmuchas ganas de aplicar misconocimientos en un entornoprofesional real. Me destaco porser autodidacta, responsable ycomprometido con el aprendizajecontinuo. 
             </p>
             <div className="d-flex justify-content-center">
-              <Slider />
+              <Carrusel></Carrusel>
             </div>
             <div className="d-grid gap-2">
               <a className="btn btn-dark" href="https://cvdesignr.com/p/67e49697ccdf4?hl=es_ES" target="_blank"> curriculum</a>
