@@ -80,11 +80,12 @@
 .swipImg{
   width: 100vh;
 }
-.proyectoImg{
-    width: 61vh;
-    object-fit:contain;
-  }
-
+.imgIset{
+  width: 20vh;
+}
+.contentPc{
+  
+}
 
 @media (max-width: 575px) {
  
@@ -110,9 +111,9 @@
     min-height: 90vh; 
   }
   .proyectoImg{
-    width: 50vh;
+    width: 40vh;
   }
   .foot{
-    height: 25vh;
+    height: auto;
   }
 }
