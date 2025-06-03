@@ -81,10 +81,12 @@
   width: 100vh;
 }
 .imgIset{
-  width: 20vh;
+  height: auto;
+  width: 50%;
+  object-fit: contain;
 }
-.contentPc{
-  
+.proyectoSwip{
+  width: 100%;
 }
 
 @media (max-width: 575px) {

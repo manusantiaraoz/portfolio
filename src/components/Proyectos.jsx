@@ -54,7 +54,7 @@ const Proyectos = () => {
 
       <div className="container  py-3 rounded shadow-lg ">
           <div className="my-1 d-flex justify-content-between proyecCell">
-            <img src={iset} alt="iset Tucuman" className="proyectoImg"/>
+            <img src={iset} alt="iset Tucuman" className="proyectoImg imgIset"/>
             <div className="card-body  mx-3">
               <h5 className="card-title my-2 text-center">Pagina Institucional</h5>
               <p className="card-text">

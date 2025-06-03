@@ -14,16 +14,16 @@ const ProveSotck = () => {
         pagination={{clickable: true}}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
-        className='proyectoImg'
+        className='contenedorSwiper'
         >
       <SwiperSlide><div className='container'>
-        <img src={principal} alt="" className='proyectoImg'/>
+        <img src={principal} alt="" className='proyectoSwip imgIset'/>
         </div></SwiperSlide>
       <SwiperSlide><div className='container'>
-        <img src={principal} alt="" className='proyectoImg'/>
+        <img src={principal} alt="" className='proyectoSwip imgIset'/>
         </div></SwiperSlide>
       <SwiperSlide><div className='container'>
-        <img src={principal} alt="" className='proyectoImg'/>
+        <img src={principal} alt="" className='proyectoSwip imgIset'/>
         </div></SwiperSlide>
       
     </Swiper>
